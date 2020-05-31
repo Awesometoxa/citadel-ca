@@ -1,0 +1,87 @@
+.product_page
+    min-height: 400px
+    margin-top: 76px
+    color: $main-color
+    &_wrapper
+        margin-top: 20px
+        display: flex
+        justify-content: space-around
+        flex-wrap: wrap
+    &_note
+        color: $main-color
+        text-align: center
+        margin-bottom: 20px
+        span
+            font-weight: 700
+.card
+    position: relative
+    margin-bottom: 20px
+    background-color: $second-color
+    width: 392px
+    min-height: 100px
+    padding: 4px 4px 82px 4px
+    border: 2px solid $main-color
+    border-radius: 7px
+    display: flex
+    flex-direction: column
+    align-items: center
+    &-img
+        width: 380px
+        img
+            width: 100%
+    &-title
+        margin-top: 5px
+        font-size: 16px
+        text-align: center
+        text-transform: uppercase
+        font-weight: 700
+        &_fs15
+            font-size: 15px
+    &-descr
+        width: 100%
+        text-align: center
+        margin-top: 5px
+        font-size: 14px
+        font-weight: 500
+        line-height: 20px
+        hr
+            margin-top: 5px
+            border-bottom: none
+        span
+            display: block
+            margin-top: 5px
+            font-size: 14px
+            font-style: italic
+    &-price
+        position: absolute
+        bottom: 44px
+        margin-top: 5px
+        text-align: center
+        font-size: 18px
+        span.price
+            font-weight: 700
+            font-size: 20px
+        span.rub
+            font-weight: 700
+            font-size: 14px
+        sup
+            font-size: 12px
+    &-btn
+        position: absolute
+        bottom: 10px
+        text-transform: uppercase
+        color: white
+        background-color: #48486a
+        border: none
+        width: 180px
+        height: 30px
+        font-size: 14px
+        text-align: center
+        border-radius: 8px
+        outline: none
+        transition: all 0.5s
+        &:hover
+            cursor: pointer
+            background-color: $second-color
+            border: 1px solid $main-color
+            color: black

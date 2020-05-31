@@ -1,0 +1,57 @@
+.thanks
+    position: relative
+    background-color: $second-color
+    height: 100vh
+    &_wrapper
+        position: absolute
+        top: 150px
+        left: 50%
+        transform: translateX(-50%)
+        display: block
+        padding: 10px 10px 30px 10px
+        max-width: 400px
+        margin: 0 auto
+        border: 2px solid $main-color
+        border-radius: 8px
+        img
+            display: block
+            margin: 0 auto
+            width: 60px
+            margin-bottom: 10px
+    &_descr
+        text-align: center
+        color: $main-color
+        font-size: 16px
+        span
+            display: block
+            font-size: 18px
+            font-weight: 700
+            margin-bottom: 10px
+    &_btn
+        margin: 0 auto
+        margin-top: 50px
+        padding: 8px
+        text-transform: uppercase
+        color: white
+        background-color: #48486a
+        border: none
+        width: 180px
+        height: 35px
+        font-size: 14px
+        text-align: center
+        border-radius: 8px
+        outline: none
+        transition: all 0.5s
+        &:hover
+            cursor: pointer
+            background-color: $second-color
+            color: $main-color
+            border: 1px solid $main-color
+        a
+            display: block
+            color: white
+            font-size: 14px
+            text-transform: uppercase
+            text-decoration: none
+            &:hover
+                color: $main-color

@@ -1,0 +1,66 @@
+.tabs
+    margin-top: 40px
+    width: 100%
+.tab-container
+    display: flex
+    justify-content: space-around
+    flex-wrap: wrap
+.tab-item, .no-active
+    padding: 5px
+    margin-bottom: 10px
+    width: 19%
+    height: 50px
+    color: $main-color
+    text-align: center
+    font-size: 14px
+    text-transform: uppercase
+    border-top: 1px solid $main-color
+    border-left: 1px solid $main-color
+    border-radius: 3px
+    transition: all 0.5s
+    &:hover
+        cursor: pointer
+        background-color: $second-color
+        font-weight: 700
+.tab-content
+    margin-top: 40px
+    min-height: 10px
+    border: 1px solid $main-color
+    border-radius: 10px
+    &-item
+        padding: 10px
+        display: flex
+        justify-content: space-between
+        &_img
+            display: block
+            width: 40%
+            border-radius: 10px
+            img
+                width: 100%
+        &_info
+            width: 60%
+        &_title
+            text-align: center
+            text-transform: uppercase
+            color: $main-color
+            font-size: 28px
+        &_descr
+            color: $main-color
+            margin-top: 20px
+            padding: 0 20px
+            text-align: justify
+            span
+                display: block
+                margin-top: 8px
+        &_link
+            text-decoration: none
+            line-height: 24px
+.active
+    background-color: $second-color
+    font-weight: 700
+.show
+    display: flex
+.hide
+    display: none
+
+
